@@ -26,6 +26,6 @@ public class UserInfoServiceImpl implements UserInfoService {
 		userInfo.setMoney(userInfo.getMoney() - money);
 		int count = userInfoMapper.updateByPrimaryKeySelective(userInfo);
 		System.out.println("添加用户受影响行数：" + count);
-		//int q=10/0;
+		//int q = 10 / 0;
 	}
 }

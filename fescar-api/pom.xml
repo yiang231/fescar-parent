@@ -14,7 +14,7 @@
     <artifactId>fescar-api</artifactId>
 
     <dependencies>
-        <!--Seata依赖
+        <!--        Seata依赖-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
@@ -31,7 +31,6 @@
             <artifactId>seata-spring-boot-starter</artifactId>
             <version>1.4.2</version>
         </dependency>
-        -->
 
         <!--web起步依赖-->
         <dependency>

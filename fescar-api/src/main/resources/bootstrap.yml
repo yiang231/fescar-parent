@@ -8,8 +8,8 @@ spring:
         server-addr: localhost:8848
         file-extension: yml
         group: SEATA_GROUP
-#        shared-configs[0]:
-#          data-id: common.yml
-#          refresh: true
-#          group: SEATA_GROUP
+        shared-configs[0]:
+          data-id: common.yml
+          refresh: true
+          group: SEATA_GROUP
 
